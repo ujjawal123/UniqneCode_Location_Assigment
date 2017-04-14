@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_gravity="center|top|left"
+        android:padding="10dp">
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/sort_code"/>
+        <TextView
+            android:id="@+id/uniqne_code"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Uniqne code"
+            android:textColor="#000"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/uniqne_code"
+            android:gravity="left"
+            android:text="@string/address"/>
+        <TextView
+            android:id="@+id/area"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|top"
+            android:layout_below="@+id/uniqne_code"
+            android:text="Location area"
+            android:textColor="#000"
+             />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/area"
+            android:gravity="left"
+            android:text="@string/latitude"/>
+        <TextView
+            android:id="@+id/lat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/area"
+            android:gravity="left"
+            android:text="lat"
+            android:textColor="#000" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lat"
+            android:gravity="left"
+            android:text="@string/longitude"/>
+        <TextView
+            android:id="@+id/lng"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/lat"
+            android:text="lat"
+            android:textColor="#000" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lng"
+            android:gravity="left"
+            android:text="@string/time"/>
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/lng"
+            android:gravity="center"
+            android:text="time"
+            android:textColor="#000" />
+
+
+        <Button
+            android:id="@+id/delete_data"
+            android:layout_width="82dp"
+            android:layout_height="42dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:text="delete Data"
+            android:background="#d2d2d2"
+            />
+        <Button
+            android:id="@+id/send_data"
+            android:layout_width="82dp"
+            android:layout_height="42dp"
+            android:text="Send data"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/delete_data"
+            android:layout_alignParentRight="true"
+            android:background="#d2d2d2" />-->
+
+    </RelativeLayout>
+
+    <View
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#3c89c1"></View>
+
+</android.support.v7.widget.CardView>
